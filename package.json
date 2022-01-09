@@ -1,0 +1,16 @@
+{
+  "name": "webpack-project",
+  "repository": "https://github.com/LesterFernandes/webpack-config.git",
+  "author": "lester fernandes <lestr.169@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
